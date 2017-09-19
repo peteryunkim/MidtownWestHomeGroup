@@ -16,7 +16,7 @@ export default class Form extends React.Component{
 		})
 	}
 
-	handleSubmit = () =>{
+	handleSubmit = () =>{ 
 		this.props.addMember(this.state.name)
 		this.setState({
 			name: ""
